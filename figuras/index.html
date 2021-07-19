@@ -1,12 +1,102 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primera Practica - Figuras Geometricas.</title>
-</head>
-<body>
-    <h1>Figuras geometricas.</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Practice | Geometric Figures</title>
+  </head>
+  <body>
+    <header>
+      <h1>First Practice</h1>
+      <h2>Geometric Figures</h2>
+    </header>
+    <main>
+      <!-- Square Section -->
+      <section>
+        <h3>Calculate area and perimeter of a square</h3>
+        <form>
+          <label for="square-side-input">Write the size of the side.</label>
+          <input
+            id="square-side-input"
+            placeholder="Side of the square"
+            type="number"
+          />
+          <button type="button" onclick="calculateAreaSquare()">Area</button>
+          <button type="button" onclick="calculatePerimeterSquare()">
+            Perimeter
+          </button>
+        </form>
+        <div>
+          <h5 id="result-text-square-perimeter"></h5>
+          <h5 id="result-text-square-area"></h5>
+        </div>
+        <hr />
+      </section>
+      <!-- Triangle Section -->
+      <section>
+        <h3>Calculate area and perimeter of a triangle</h3>
+        <form>
+          <label for="triangle-sideA-input"
+            >Write the size A of the Triangle.</label
+          >
+          <input
+            id="triangle-sideA-input"
+            placeholder="Side A of the triangle"
+            type="number"
+          />
+          <br />
+          <label for="triangle-sideB-input"
+            >Write the size B of the Triangle.</label
+          >
+          <input
+            id="triangle-sideB-input"
+            placeholder="Side B of the triangle"
+            type="number"
+          />
+          <br />
+          <label for="triangle-base-input"
+            >Write the size base of the Triangle.</label
+          >
+          <input
+            id="triangle-base-input"
+            placeholder="Base of the triangle"
+            type="number"
+          />
+          <br />
+          <button type="button" onclick="calculateAreaTriangle()">Area</button>
+          <button type="button" onclick="calculatePerimeterTriangle()">
+            Perimeter
+          </button>
+          <hr />
+        </form>
+        <div>
+          <h5 id="result-text-triangle-perimeter"></h5>
+          <h5 id="result-text-triangle-area"></h5>
+        </div>
+      </section>
+      <hr />
+      <!-- Circle section -->
+      <section>
+        <h3>Calculate the area and perimeter of a Circle</h3>
+        <form>
+          <label for="radius-input">Write the size of the radius</label>
+          <input
+            id="radius-input"
+            placeholder="radius"
+            type="number"
+          />
+          <br />
+          <button type="button" onclick="calculateCircle()">Area</button>
+            Perimeter
+          </button>
+          <hr />
+        </form>
+        <div>
+          <h5 id="result-text-circle-perimeter"></h5>
+          <h5 id="result-text-circle-area"></h5>
+        </div>
+      </section>
+    </main>
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
