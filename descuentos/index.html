@@ -7,9 +7,21 @@
   </head>
   <body>
     <main>
-      <h1>Discounts and prices</h1>
+      <header>
+        <h1>Discounts and prices</h1>
+      </header>
+      <section>
+        <h4>Calculate the price to pay of a product with discount</h4>
+        <form action="">
+          <label for="price-input"></label>
+          <input id="price-input" type="number" placeholder="Insert the price:"/>
+          <label for="discount-input"></label>
+          <input id="discount-input" type="number" placeholder="Insert the price:"/>
+          <button type="button" onclick="handleClickCalculate()">Calculate</button>
+        </form>
+        <p id="result-printer"></p>
+      </section>
     </main>
-
     <script src="./index.js"></script>
   </body>
 </html>
