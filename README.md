@@ -15,3 +15,11 @@
 - Segundo paso: implementar las formulas en js
 - Tercer paso: crear las funciones
 - Cuarto paso: Integrar JS con HTMl
+
+
+# Taller #3; promedio, mediana moda.
+
+- Primer paso: Definir las forumas
+- Segundo paso: implementar las formulas en JS
+- Tercer paso: Hacer el codigo reutilizable con funciones
+- Cuarto paso: Implementarlo con JS
