@@ -23,3 +23,12 @@
 - Segundo paso: implementar las formulas en JS
 - Tercer paso: Hacer el codigo reutilizable con funciones
 - Cuarto paso: Implementarlo con JS
+
+
+
+# Taller #4;  Salarios
+
+- Primer paso: Definir las forumas
+- Segundo paso: implementar las formulas en JS
+- Tercer paso: Hacer el codigo reutilizable con funciones
+- Cuarto paso: Implementarlo con JS

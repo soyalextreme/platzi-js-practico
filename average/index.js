@@ -16,3 +16,23 @@ function mediana(arr) {
   }
   return mediana;
 }
+
+const testArray = [1, 2, 3, 4, 4, 1, 1, 1, 10];
+
+function moda(arr) {
+  let listCounter = {};
+
+  arr.map((item) => {
+    if (listCounter[item]) {
+      listCounter[item] += 1;
+    } else {
+      listCounter[item] = 1;
+    }
+  });
+
+  let arrCounterSort = Object.entries(listCounter).sort((a, b) => a[1] - b[1]);
+
+  console.log(arrCounterSort[arrCounterSort.length - 1]);
+}
+
+moda(testArray);
